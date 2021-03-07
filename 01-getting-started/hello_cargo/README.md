@@ -1,4 +1,4 @@
-# Getting Started
+# Chapter 1: Getting Started
 
 ## Cargo
 
