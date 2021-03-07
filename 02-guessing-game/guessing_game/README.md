@@ -31,3 +31,14 @@ resulted in `Ok`, or crash and take some action if it's an `Err`.
 
 One very nice feature is that if you forget to handle the `Err` case, you'll get a
 warning.
+
+## Dependency management
+
+You can go to [Crates.io](https://crates.io/) and search for the Crate you want. They
+include what to copy to your `Cargo.toml` file.
+
+As of this writing, there's no built-in command line way of doing this operation
+without editing the file, but there's third-party Cargo subcommands that do this.
+
+There's [petitions to add this functionality to Cargo proper](https://github.com/rust-lang/cargo/issues/5586)
+though, so it's possible they add it at some point.
