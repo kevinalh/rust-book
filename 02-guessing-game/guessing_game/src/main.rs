@@ -17,7 +17,10 @@ fn main() {
             .expect("Failed to read line");
 
         // Here we do variable shadowing, usually seen when converting types
-        let guess = guess.trim().parse::<u32>().expect("Please type a number!");
+        let guess = match guess.trim().parse::<u32>() {
+            Ok(num) => num,
+            Err(_) => continue,
+        };
         println!("You guessed: {}", guess);
 
         match guess.cmp(&secret_number) {
