@@ -1,4 +1,4 @@
-# Chapter 4: Understanding ownership
+# Chapter 4: Understanding Ownership
 
 Rust uses the ownership approach to memory management, in contract to GC and manual
 management.
@@ -33,10 +33,36 @@ A deep copy can be accomplished via the `clone` method.
 Note that the move isn't done for certain types like integers, because that's cheap to
 do. This is explicitly done when the type implements the **`Copy` trait**.
 
-## Functions
+## Functions and references
 
 When you pass a variable to a function, its ownership is moved to the function, so the
 variable is invalidated in the caller's scope, unless:
 
 1. The function returns the variable, effectively giving back ownership to the caller.
 2. We use **references**, like `let len = calculate_length(&s1);`.
+
+Passing references as function parameters is called **borrowing**. These references
+allow us to work with variables without taking ownership. You can't modify them unless
+you pass a **mutable reference** with the `&mut` syntax, but there's a restriction of
+one mutable reference allowed per scope. The purpose of this restriction is to avoid
+data races.
+
+Important note: The scope of a reference starts when it is introduced and
+**ends at the last point where it's used**.
+
+Dangling pointers are also checked for by the compiler.
+
+## Slices
+
+Use the notation
+
+```rust
+&s[0..i]
+```
+
+String slices have the type `&str`. String literals are slices.
+
+Since they're immutable references, passing a mutable reference to the underlying string
+is an error while they're in the scope.
+
+For `i32` arrays, the type of the slice is `&[i32]`.
