@@ -10,3 +10,4 @@ This repository includes my own work on [The Rust Programming Language](https://
 4. [Understanding Ownership](/04-understanding-ownership/ownership)
 5. [Using Structs to Structure Related Data](/05-using-structs/structs)
 6. [Enums and Pattern Matching](/06-enums-and-pattern-matching/enums)
+7. [Managing Growing Projects with Packages, Crates, and Modules](/07-packages-crates-and-modules/my-project)
