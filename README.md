@@ -8,3 +8,4 @@ This repository includes my own work on [The Rust Programming Language](https://
 2. [Programming a Guessing Game](/02-guessing-game/guessing_game)
 3. [Common Programming Concepts](/03-programming-concepts/variables)
 4. [Understanding Ownership](/04-understanding-ownership/ownership)
+5. [Using Structs to Structure Related Data](/05-using-structs/structs)
