@@ -1,6 +1,6 @@
 # Chapter 4: Understanding Ownership
 
-Rust uses the ownership approach to memory management, in contract to GC and manual
+Rust uses the ownership approach to memory management, in contrast to GC and manual
 management.
 
 The rules are: Each value has only one owner variable. Once the owner goes out of scope,
