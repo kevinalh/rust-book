@@ -19,7 +19,7 @@ let s2 = s1;
 
 corresponds to the following picture.
 
-![How copies work for heap-allocated values](https://doc.rust-lang.org/book/img/trpl04-04.svg)
+<img alt="How copies work for heap-allocated values" src="https://doc.rust-lang.org/book/img/trpl04-04.svg" width="300" height="300">
 
 The group of data that includes the pointer, the length and capacity are stored on the
 stack. These are indeed copied over to `s2`, but not the heap data.
