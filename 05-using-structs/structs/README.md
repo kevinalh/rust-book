@@ -11,7 +11,7 @@ struct User {
 }
 ```
 
-Storing references in structs require the user of **lifetimes**.
+Storing references in structs require the use of **lifetimes**.
 
 Another feature is that of **tuple structs**, where each field doesn't have a name but
 only position. We do define the types beforehand though.
