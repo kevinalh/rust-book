@@ -24,7 +24,7 @@ fn main() {
 fn solve_vector() {
     let v1 = vec![111, 25, 30];
     println!("The mean of {:?} is {:.2}", v1, mean(&v1));
-    let v2 = vec![1, 3, 4, 4, 4, 2, 3];
+    let mut v2 = vec![1, 3, 4, 4, 4, 2, 3];
     let v3 = vec![5, 6, 6, 8];
     let v4: Vec<u32> = Vec::new();
     let mut v5 = Vec::new();
@@ -33,6 +33,7 @@ fn solve_vector() {
         "The vectors are {:?}, {:?}, {:?} and {:?}",
         &v2, &v3, &v4, &v5,
     );
+    v2.sort();
     println!(
         "The medians are {:?}, {:?}, {:?} and {:?}",
         median(&v2),
