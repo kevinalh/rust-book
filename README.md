@@ -12,3 +12,6 @@ This repository includes my own work on [The Rust Programming Language](https://
 6. [Enums and Pattern Matching](/06-enums-and-pattern-matching/enums)
 7. [Managing Growing Projects with Packages, Crates, and Modules](/07-packages-crates-and-modules/my-project)
 8. [Common Collections](/08-common-collections/collections)
+9. [Error handling](/09-error-handling/panic)
+10. [Generic Types, Traits, and Lifetimes](/10-generic-types-traits-and-lifetimes/chapter10)
+11. [Writing Automated Tests](/11-writing-automated-tests/adder)
