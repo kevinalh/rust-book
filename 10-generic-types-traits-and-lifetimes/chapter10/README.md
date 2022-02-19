@@ -30,7 +30,7 @@ impl Summary for Tweet {
 
 We can't implement external traits on external types (with respect to our crate), but
 we can do it if either the trait or the type is local. This restriction is part of the
-**orphan rule**.
+[**orphan rules**](https://smallcultfollowing.com/babysteps/blog/2015/01/14/little-orphan-impls/).
 
 For generic functions, we can restrict parameters to those with types that implement
 a trait via `impl`. For multiple traits we can use `+`.
