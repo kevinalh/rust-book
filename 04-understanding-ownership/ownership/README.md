@@ -66,3 +66,5 @@ Since they're immutable references, passing a mutable reference to the underlyin
 is an error while they're in the scope.
 
 For `i32` arrays, the type of the slice is `&[i32]`.
+
+[Previous](/03-programming-concepts/variables/) | [Next](/05-using-structs/structs/)

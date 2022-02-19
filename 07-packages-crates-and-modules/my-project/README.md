@@ -72,3 +72,5 @@ which is equivalent to
 use std::io;
 use std::io::Write;
 ```
+
+[Previous](/06-enums-and-pattern-matching/enums/) | [Next](/08-common-collections/collections/)

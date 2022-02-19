@@ -24,3 +24,5 @@ error. Hence, if you want to use the `?` operator inside the `main` function, yo
 make `main` return `Result<(), Box<dyn Error>>`.
 
 You can put your validation code in the `new` implementation of a `struct`.
+
+[Previous](/08-common-collections/collections/) | [Next](/10-generic-types-traits-and-lifetimes/chapter10/)

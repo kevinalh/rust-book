@@ -67,3 +67,5 @@ instead of
 
 An **associated function** is like a method inside a `impl` block, but it doesn't take
 the `self` parameter. These are then called with the `::` syntax.
+
+[Previous](/04-understanding-ownership/ownership/) | [Next](/06-enums-and-pattern-matching/enums/)

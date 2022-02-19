@@ -64,3 +64,5 @@ Range iterations can be done via the `Range` type:
 ```rust
 for number in (1..4).rev() {}
 ```
+
+[Previous](/02-guessing-game/guessing_game/) | [Next](/04-understanding-ownership/ownership/)

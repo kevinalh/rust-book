@@ -41,3 +41,5 @@ normal function.
 
 Formatting can be done via the [`rustfmt`](https://wiki.archlinux.org/index.php/rust#Rustfmt)
 tool. This can be configured as to autoformat on VSCode.
+
+[Next](/02-guessing-game/guessing_game)

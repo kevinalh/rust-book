@@ -42,3 +42,5 @@ without editing the file, but there's third-party Cargo subcommands that do this
 
 There's [petitions to add this functionality to Cargo proper](https://github.com/rust-lang/cargo/issues/5586)
 though, so it's possible they add it at some point.
+
+[Previous](/01-getting-started/hello_cargo/) | [Next](/03-programming-concepts/variables/)

@@ -99,3 +99,5 @@ duration. String literals have this lifetime, for example.
 ```rust
 let s: &'static str = "I have a static lifetime.";
 ```
+
+[Previous](/09-error-handling/panic/) | [Next](/11-writing-automated-tests/adder/)
