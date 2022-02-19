@@ -39,4 +39,4 @@ don't have tests in there.
 The `main.rs` file doesn't need to be tested if the important functionality is in the
 library crate.
 
-[Previous](/10-generic-types-traits-and-lifetimes/chapter10/)
+[Previous](/10-generic-types-traits-and-lifetimes/chapter10/) | [Next](/12-building-a-command-line-program/minigrep/)
