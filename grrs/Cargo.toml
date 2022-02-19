@@ -1,10 +1,10 @@
 [package]
 name = "grrs"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Kevin Languasco <3322228+kevinalh@users.noreply.github.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-structopt = "0.3"
+clap = { version = "3.1.0", features = ["derive"] }
