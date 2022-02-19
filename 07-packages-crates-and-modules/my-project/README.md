@@ -3,6 +3,10 @@
 **Packages** can contain multiple **binary crates** and optionally one
 **library crate**.
 
+The [difference](https://stackoverflow.com/a/62365950/2616577) between these is that a
+binary crate generates executables to be installed, while libraries are for other
+libraries and binaries to use instead of being executed on their own.
+
 The `src/main.rs` file is, by convention, the crate root of a binary crate with the same
 name as the package.
 
