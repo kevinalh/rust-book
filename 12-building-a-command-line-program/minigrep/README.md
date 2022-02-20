@@ -8,4 +8,8 @@ configuration is one way to keep code clean.
 These functions should return a `Result` type so that the `main` function can handle the
 error cases.
 
+You can use the `std::env` module for dealing with environment variables.
+
+The `eprintln!` macro will princt to stderr instead of stdout.
+
 [Previous](/11-writing-automated-tests/adder/)
