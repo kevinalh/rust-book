@@ -51,3 +51,7 @@ the container and `iter_mut` iterates over mutable references.
 A **consuming adaptor** is a method that calls `next`, for example `sum`.
 
 An **iterator adaptor** is a method that produces another iterator, for example `map`.
+
+Iterators are efficient. The **unrolling optimization** is done when the compiler can
+determine there's a fixed amount of iterations and instead of doing a loop in assembly,
+it creates repetitive code, removing the iteration overhead.
