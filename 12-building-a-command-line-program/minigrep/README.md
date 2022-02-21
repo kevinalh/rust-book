@@ -12,4 +12,4 @@ You can use the `std::env` module for dealing with environment variables.
 
 The `eprintln!` macro will princt to stderr instead of stdout.
 
-[Previous](/11-writing-automated-tests/adder/)
+[Previous](/11-writing-automated-tests/adder/) | [Next](/13-functional-language-features/)
