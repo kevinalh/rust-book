@@ -16,3 +16,5 @@ This repository includes my own work on [The Rust Programming Language](https://
 10. [Generic Types, Traits, and Lifetimes](/10-generic-types-traits-and-lifetimes/chapter10)
 11. [Writing Automated Tests](/11-writing-automated-tests/adder)
 12. [Building a Command Line Program](/12-building-a-command-line-program/minigrep/)
+13. [Functional language features](/13-functional-language-features/functional/)
+14. [Cargo Crates](/14-cargo-crates/add/)

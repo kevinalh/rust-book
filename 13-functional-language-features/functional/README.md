@@ -55,3 +55,5 @@ An **iterator adaptor** is a method that produces another iterator, for example 
 Iterators are efficient. The **unrolling optimization** is done when the compiler can
 determine there's a fixed amount of iterations and instead of doing a loop in assembly,
 it creates repetitive code, removing the iteration overhead.
+
+[Previous](/12-building-a-command-line-program/minigrep/) | [Next](/14-cargo-crates/add/)
