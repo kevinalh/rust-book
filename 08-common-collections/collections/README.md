@@ -1,4 +1,4 @@
-# Common Collections
+# Chapter 8: Common Collections
 
 ## Vectors
 

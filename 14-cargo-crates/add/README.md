@@ -1,4 +1,4 @@
-# More about Cargo and Crates.io
+# Chapter 14: More about Cargo and Crates.io
 
 The two main profiles are `dev` (when using `cargo build`, includes `debuginfo`) and `release` (with
 `cargo build --release`). You can customize these profiles as follows
@@ -57,4 +57,4 @@ to publish each one individually to crates.io.
 Using `cargo install` allows you to download binaries into `$HOME/.cargo/bin` (by default). This is
 useful for quickly using tools.
 
-[Previous](/13-functional-language-features/functional/)
+[Previous](/13-functional-language-features/functional/) | [Next](/15-smart-pointers)

@@ -1,4 +1,4 @@
-# Using Structs to Structure Related Data
+# Chapter 5: Using Structs to Structure Related Data
 
 We use the keyword `struct` to define one, like this:
 

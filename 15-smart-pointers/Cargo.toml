@@ -1,0 +1,5 @@
+[package]
+name = "pointers"
+version = "0.1.0"
+authors = ["Kevin Languasco <3322228+kevinalh@users.noreply.github.com>"]
+edition = "2024"

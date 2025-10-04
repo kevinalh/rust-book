@@ -1,4 +1,4 @@
-# Enums and Pattern Matching
+# Chapter 6: Enums and Pattern Matching
 
 ## Enums
 

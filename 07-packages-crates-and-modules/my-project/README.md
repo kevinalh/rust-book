@@ -1,4 +1,4 @@
-# Managing Growing Projects with Packages, Crates and Modules
+# Chapter 7: Managing Growing Projects with Packages, Crates and Modules
 
 **Packages** can contain multiple **binary crates** and optionally one
 **library crate**.

@@ -18,3 +18,4 @@ This repository includes my own work on [The Rust Programming Language](https://
 12. [Building a Command Line Program](/12-building-a-command-line-program/minigrep/)
 13. [Functional language features](/13-functional-language-features/functional/)
 14. [Cargo Crates](/14-cargo-crates/add/)
+15. [Smart Pointers](/15-smart-pointers)
